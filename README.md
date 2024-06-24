@@ -1,6 +1,16 @@
-# Discord.js v14 welcome botu
+# Discord.js welcome botu V2.0
 
-**Discord sunucunuzda bom boş seste duran ve oynuyor kısımları olan botları bu tek altyapıda açık tutabilirsiniz, config kısmına farklı tokenler ekleyerek daha çok bot çalıştırmasını ve sese sokmasını sağlayabilirsiniz.**
+- **Bu bot sayesinde tek index dosyasında istediğiniz sayıda botu her biri farklı prefixli ve farklı ses kanallarında duracak şekilde istediğiniz gibi çalıştırabilirsiniz**
+
+- Welcome botunun V2.0 sürümü, ayrı repo açmamın bi kaç sebebi var detaya girmek istemiyorum
+
+# V1.0'dan farkı ve notlar :
+
+- commands klasörü eklendi ve düzeltildi
+- v14 de ses aktivitelerinin kullanılması için discordjs@voices modülünün kullanılması lazım ama bu modülde yapmak istediğimiz botu sınırlıyor doalyısıyla bu modülün olmadığı en güncel sürüm olan discord.js@12.5.3 sürümüne geçirdim botu.
+- index.js i komple değiştirdim ve artık botları ayrı ayrı sorunsuz şekilde çalıştırıyor.
+- artık botları config kısmında "bot1", "bot2" şeklinde belirtmeniz gerekmiyor.
+- node terminalde çalışmaya başladıktan 15 saniye sonra ufak bi uyarı alacaksınız terminal kısmında ama önemli birşey değil merak etmeyin sonrasında düzeliyor.
 
 # Bu bot özel istek üzerine yapılmıştır.
 [![Discord Istek](https://cdn.discordapp.com/attachments/1173319481599213639/1253628750138970112/image.png?ex=66768c41&is=66753ac1&hm=32cba3cfb9a807ebd27dbfde0f47ae88aff05057fa087c5cd61f449e96c93977&)](https://discord.gg/bdfd)
@@ -12,7 +22,6 @@
     {
         TOKEN: 'bot-token',
         PREFIX: '!',
-        ID: 'bot1',
         VOICE_CHANNEL_ID: "ses-kanal-id"
     }
     ```
@@ -22,13 +31,11 @@
     {
         TOKEN: 'bot-token',
         PREFIX: '!',
-        ID: 'bot1',
         VOICE_CHANNEL_ID: "ses-kanal-id"
     },
         {
         TOKEN: 'bot-token',
         PREFIX: '!',
-        ID: 'bot2',
         VOICE_CHANNEL_ID: "ses-kanal-id"
     }
     ```
