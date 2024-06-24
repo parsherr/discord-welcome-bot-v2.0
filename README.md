@@ -49,6 +49,14 @@
 3. **Botu Başlatın:**
     - `node .` ve ya `node index.js` ile dosyasını çalıştırın.
 
+## Glitch Kurulum ve .env modülü eklemek
+
+- ".env" adında bir dosya oluşturun.
+- config.js dekileri env ye tamamen aynı olacak şekilde ekleyin.
+- index.js içerisine .env modülünü requare edin
+- "config.TOKEN" şeklinde tanımlanan her yeri "env.proccess.TOKEN" şeklinde değiştirin (sadce token değil prefix ve kanal id içinde ayynısı geçerli)
+
+**Bu kurulum adımlarını test etmeden sadece aklımdan buraya not düşüyorum yani dediklerim %100 doğru olmayabilir, harf hatası yapmış olurum vs. ChatGPT ile dediklerim üzerinden ilerlerseniz sonuca ulaşacağınızı düşünüyorum.**
 
 ## Destek
 
